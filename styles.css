@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 0; /* Yükseklik arttırıldı */
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1; /* Sekmelerin arka planı biraz daha genişletildi */
+  }
+  
+  .tab:hover {
+    background-color: #e9ecef;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .option-item {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 48%;
+    text-align: center;
+  }
+  
+  .option-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Resim yükleme butonunun gizlenmesi */
+  #upload-input {
+    display: none;
+  }
+  

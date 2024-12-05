@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finder: Buy the one in the picture</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Finder: Buy the one in the picture</h1>
+  </header>
+
+  <div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab">Similars</div>
+      <div class="tab">Trending</div>
+      <div class="tab">Wishlist</div>
+      <div class="tab">Download</div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search by keyword or image URL">
+      <button>Search</button>
+    </div>
+
+    <!-- Options -->
+    <div class="options">
+      <div class="option-item">
+        <h3>Capture Image</h3>
+        <p>Ctrl + Shift + Right</p>
+      </div>
+      <div class="option-item">
+        <h3>Upload Image</h3>
+        <button id="upload-button">Choose File</button>
+        <input type="file" id="upload-input" accept="image/*">
+      </div>
+    </div>
+
+    <!-- More options -->
+    <div class="options">
+      <div class="option-item">
+        <h3>Right-click on Image</h3>
+        <p>Search directly from image</p>
+      </div>
+      <div class="option-item">
+        <h3>Discover trending products 🔥</h3>
+        <p>Find the hottest trends</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
